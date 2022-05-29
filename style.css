@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Mali:wght@500&family=Patrick+Hand+SC&display=swap');
+body {
+    /* background-image: url(images/splash.png);
+    background-size: contain;
+    background-repeat:no-repeat; */
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    font-size: 30px;
+    padding : 20px;
+    background-color: #FFD301;
+    text-align: center;
+    color: black;
+    font-family: 'Caveat Brush', cursive;
+    border: 2px solid black;
+}
+
+nav a {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #89C7E7;
+    padding: 1px;
+    position: sticky;
+    border: 2px solid black;
+    top: 0;
+}
+
+aside {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 150%;
+    width: 15%;
+    height: 60%;
+    float: right;
+    background-color: #ADD8E5;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.profile img {
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+ }
+ .homemessage{
+    width: 120%;
+    font-family: 'Mali', cursive;
+    font-size: 100%;
+ }
+ .wellogo img{
+    width: 10%;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ footer {
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    background-color: #89C7E7;
+    padding: 1px;
+    position: sticky;
+    border: 2px solid black;
+    top: 0;
+    
+}
+
+ /* SECTIONS */
+ .container-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Properti lainnya */
+    width: 50%;
+    height: 30%;
+    background-color: #FFF684;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.container-sections .box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-sections .box2{
+    width: 20%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.container-sections .box2 img{
+    width: 100%;
+}
+.container-sections .box2 P{
+    text-align: center;
+    font-family: 'Mali', cursive;
+    font-size: 100%;
+}
+
+
+
+
+/* FOR contact.html */
+
+.container-contact{
+    display: flex;
+
+    /* Properti lainnya */
+    width: 40%;
+    height: 250px;
+    background-color: #FFF684;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.link-contact{
+    font-family: 'Mali', cursive;
+    font-size: 250%;
+    text-align: center;
+}
+.headercontact{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+/* FOR gallery.html */
+.container-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 25px 0px;
+}
+
+.container-gallery .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-gallery .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 30px 30px;
+    background-color: #FFFFC2;
+    padding: 0px 0px 5px 0px;
+}
+.container-gallery .card img{
+    width: 100%;
+}
+  
+.container-gallery .card p{
+    color: black;
+    padding: 10px;
+}
+  
+.container-gallery p {
+    text-align: center;
+    font-family: 'Mali', cursive;
+    font-size: 100%;
+}
