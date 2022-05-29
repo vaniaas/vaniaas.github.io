@@ -73,6 +73,55 @@ aside {
     object-position: center;
  }
 
+ .slider{
+    position: relative;
+    width: 35%;
+    height: 500px;
+    margin-left: 25%;
+    background: #ffffff;
+  }
+  
+  .slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+  
+  .slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+  }
+  
+  .slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider .navigation .btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider .navigation .btn.active{
+    background: #2696E9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
  footer {
     font-family: 'Patrick Hand SC', cursive;
     text-align: center;
